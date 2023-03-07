@@ -1,0 +1,10 @@
+
+packages/
+
+TeramedQRTool/obj/*
+TeramedQRTool/bin/
+
+TeramedQRTool/Release/
+TeramedQRTool/Debug/
+
+.vs/

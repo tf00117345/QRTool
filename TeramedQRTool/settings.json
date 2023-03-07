@@ -1,0 +1,25 @@
+{
+  "PacsSetting": [
+    {
+      "Name": "AE1",
+      "CallingAe": "SCU1"
+    }
+  ],
+  "ServerSetting": {
+    "ServerAe": "STORESCP",
+    "Port": 1222
+  },
+  "RetrieveSetting": {
+    "DestinationAE": "STORESCP",
+    "CalledAE": "STORESCP",
+    "CalledIP": "127.0.0.1",
+    "CalledPort": 5678,
+    "CallingAE": "CONQUESTSRV1"
+  },
+  "OtherSetting": {
+    "DefaultCDViewerPath": "C:\\Program Files\\I-SoftViewer\\DicomDirExporter\\CDViewer\\",
+    "ExamKeepDays": 30,
+    "DiskMinimumAllowableVolume": 2048,
+    "NameOfExportDir": "{0010,0020}-{0010,0010}-{0008,0020}-{0008,1030}"
+  }
+}
