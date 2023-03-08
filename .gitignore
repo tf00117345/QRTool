@@ -1,10 +1,13 @@
 
 packages/
 
-TeramedQRTool/obj/*
-TeramedQRTool/bin/
+QRTool/obj/
+QRTool/bin/
 
-TeramedQRTool/Release/
-TeramedQRTool/Debug/
+QRTool/Release/
+QRTool/Debug/
+
+QRToolSetup/Release/
+QRToolSetup/Debug/
 
 .vs/

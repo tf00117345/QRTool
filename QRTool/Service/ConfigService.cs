@@ -26,6 +26,10 @@ namespace TeramedQRTool.Service
 
         private ConfigService()
         {
+            if (!Directory.Exists(TempStoragePath)) Directory.CreateDirectory(TempStoragePath);
+            if (!Directory.Exists(JobStoragePath)) Directory.CreateDirectory(JobStoragePath);
+            if (!Directory.Exists(ErrorPath)) Directory.CreateDirectory(ErrorPath);
+
             using (var r = new StreamReader(ConfigPath))
             {
                 var json = r.ReadToEnd();

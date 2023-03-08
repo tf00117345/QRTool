@@ -17,7 +17,7 @@
     "CallingAE": "CONQUESTSRV1"
   },
   "OtherSetting": {
-    "DefaultCDViewerPath": "C:\\Program Files\\I-SoftViewer\\DicomDirExporter\\CDViewer\\",
+    "DefaultCDViewerPath": "C:\\Program Files\\I-SoftViewer\\QRTool\\CDViewer\\",
     "ExamKeepDays": 30,
     "DiskMinimumAllowableVolume": 2048,
     "NameOfExportDir": "{0010,0020}-{0010,0010}-{0008,0020}-{0008,1030}"

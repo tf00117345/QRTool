@@ -108,7 +108,7 @@ namespace TeramedQRTool.ViewModel
             if (!string.IsNullOrWhiteSpace(uid))
             {
                 _snackbarMessenger?.ShowSuccessMessage("Retrieve study image(s) success.");
-                Process.Start(ConfigService.JobStoragePath);
+                Process.Start(ConfigService.JobStoragePath + "\\");
             }
             else
                 _snackbarMessenger?.ShowErrorMessage("Retrieve study images(s) failed.");

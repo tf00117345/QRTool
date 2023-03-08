@@ -1,0 +1,30 @@
+<!--xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml' x:Name="gdViewer"-->
+ 
+<Grid xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>
+	<!--NAME為ENABLED的GRID將被啟用-->
+    <Grid Name="ENABLED">
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition Height="25"/>
+			<RowDefinition Height="25"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="25"/>
+			<ColumnDefinition Width="40"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>		
+		<Image Name="IMAGE" Tag="TagData1" Grid.ColumnSpan="3" Grid.Column="0" Grid.Row="0" Grid.RowSpan="3"
+			Margin="5,5,5,5" Stretch="Uniform" Source=""></Image>
+		
+	</Grid>	
+	<!--資料來源設定-->
+	<Grid.Resources>
+		<ResourceDictionary 
+		xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml' 
+		xmlns:sys='clr-namespace:System;assembly=mscorlib'>
+            <sys:String x:Key="TagData1">FilePath</sys:String>
+			<sys:String x:Key="TagData2">Attached</sys:String>			
+        </ResourceDictionary>
+    </Grid.Resources>
+</Grid>  
+
